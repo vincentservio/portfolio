@@ -237,3 +237,8 @@ button {
   color: white;
   transform: rotateY(180deg);
 }
+
+.project-img {
+  margin: -150px;
+  /* filter: invert(100%); */
+}

@@ -6,11 +6,14 @@ export const Project = () => {
       <div className="flip-card-inner">
         <div className="flip-card-front">
           <img
-            src="https://33.media.tumblr.com/fd9d059cc9ac4a508b7b16fcdf47453f/tumblr_niwkp3bqFF1u90wj0o1_500.gif"
+            className="project-img"
+            src="https://media1.giphy.com/media/4Z0cgPeXYc6EKLYKMv/source.gif"
             alt="Avatar"
             style={{width: "300px", height: "300px"}}
+            hello
           />
         </div>
+
         <div className="flip-card-back">
           <h1>John Doe</h1>
           <p>Architect & Engineer</p>
