@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow&family=Cormorant:wght@300&family=Luckiest+Guy&display=swap");
-header {
-  /* background: red; */
-}
+
 .card {
   size: 24px;
   /* float: left; */
@@ -142,6 +140,8 @@ button {
 }
 
 .skills {
+  padding-bottom: 6vw;
+
   clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 20%);
   position: absolute;
 
@@ -192,10 +192,15 @@ button {
   color: rgb(29, 49, 42);
   font-family: "Barlow", sans-serif;
   font-size: 42px;
-  /* margin: 200px 2px; */
 }
 
 .flip-card {
+  display: inline-block;
+  /* clip-path: polygon(100% 0, 100% 1000%, 0 100%, 0 0%); */
+  margin: 200px 30px;
+
+  /* padding: 100px 60px; */
+  /* max-resolution: 100px; */
   background-color: transparent;
   width: 300px;
   height: 300px;
@@ -226,19 +231,132 @@ button {
 }
 
 .flip-card-front {
-  clip-path: polygon(100% 0, 100% 30%, 0 40%, 0 0%);
+  /* clip-path: polygon(100% 0, 50% 0%, 0 100%, 0 0%); */
+  /* background-size: 150px; */
 
-  background-color: #bbb;
+  /* background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 20%,
+    rgba(255, 255, 255, 1)
+  ); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+
+  background-color: rgb(255, 255, 255);
   color: black;
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: #000000;
   color: white;
   transform: rotateY(180deg);
 }
 
 .project-img {
-  margin: -150px;
+  margin: -70px;
+  width: 300px;
+  height: 300px;
+  clip-path: polygon(0 39%, 100% 24%, 100% 82%, 0 82%);
+
+  /* margin: -150px; */
   /* filter: invert(100%); */
+}
+.card-back {
+  size: 24px;
+  /* float: left; */
+  /* padding-bottom: 100vw; */
+  /* display: inline-block;
+  width: 150px;
+  border: 2px solid rgb(231, 203, 227);
+  padding: 30px 10px; */
+  position: absolute;
+  /* margin-top: 205px; */
+  /* height: 165px;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.7;
+  right: 12px;
+  left: 600px;
+  font-size: 15px;
+  margin-left: 20px; */
+  /* padding-top: 20px; */
+}
+
+.lang {
+  size: 55px;
+  font-family: "Barlow", sans-serif;
+}
+
+.demo {
+  background-color: rgb(219, 159, 159);
+  font-size: 21px;
+}
+
+.Footer {
+  clip-path: polygon(0 75%, 100% 50%, 100% 100%, 0 100%);
+
+  background-image: url("https://thumbs.gfycat.com/UnfoldedRedJaguarundi-small.gif");
+  object-fit: contain;
+
+  height: 550px;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+
+  /* padding: 5px; */
+  text-align: center;
+  /* -webkit-text-stroke: 1.5px rgb(29, 49, 42); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+
+  padding-bottom: 0vw;
+}
+.foot-text {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.ocs {
+  position: relative;
+  z-index: 2;
+  background-color: red;
+  padding: 22px;
+}
+
+.ms {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 50px;
+  z-index: 1000;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.473);
+  z-index: 2;
+}
+
+.BWS {
+  position: relative;
+  z-index: 1001;
+}
+
+.OCS {
+  position: relative;
+  z-index: 2;
+  background-color: red;
+  padding: "10px";
 }

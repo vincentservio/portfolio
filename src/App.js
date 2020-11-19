@@ -5,10 +5,10 @@ import {Mission} from "./Mission";
 import {Languages} from "./Languages";
 import Skills from "./Skills";
 import Portfolio from "./Portfolio/Portfolio";
+import {Footer} from "./Footer";
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header"> */}
       <Header />
       <br />
       <div className="titles">
@@ -20,9 +20,10 @@ function App() {
       <Mission />
       <br />
       <Skills />
-      <div className="portfolio">PROJECT PORTFOLIO</div>
+      <div className="titles">PROJECT PORTFOLIO</div>
       <Portfolio />
-      {/* </header> */}
+      {/* <img src={`${gif}`} alt="img" /> */}
+      <Footer />
     </div>
   );
 }
