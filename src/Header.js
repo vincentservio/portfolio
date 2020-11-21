@@ -22,7 +22,7 @@ export default class Header extends Component {
             Full Stack Engineer
           </div>
           <br />
-          <button>View Projects</button>
+          {/* <button>View Projects</button> */}
           {/* <img alt=""></img>
           <div className="bottom">FIRST HAND EXPERIENCE</div> */}
           {/* <div className="background box">FIRST HAND EXPERIENCE</div> */}
