@@ -10,36 +10,37 @@ export default class Skills extends Component {
           skill={"Front End"}
           program1={"JavaScript"}
           program2={"React/Redux"}
-          program3={"HTML5"}
-          program4={"CSS"}
-        />
-
-        <Cards
-          icon={"https://img.icons8.com/ios-filled/80/000000/database.png"}
-          skill={"SERVER"}
-          program1={"JavaScript"}
-          program2={"React/Redux"}
-          program3={"HTML5"}
-          program4={"CSS"}
+          program3={"HTML5/CSS"}
+          program4={"Command Line Interface"}
         />
         <Cards
-          icon={"https://img.icons8.com/ios-filled/80/000000/database.png"}
-          skill={"DATABASE"}
-          program1={"JavaScript"}
-          program2={"React/Redux"}
-          program3={"HTML5"}
-          program4={"CSS"}
+          icon={"https://img.icons8.com/ios-filled/80/000000/server.png"}
+          skill={"Back End"}
+          program1={"Ruby On Rails"}
+          program2={"SQL"}
+          program3={"Sinatra"}
+          program4={"REST/API"}
+        />{" "}
+        <Cards
+          icon={
+            "https://img.icons8.com/ios-filled/80/000000/apple-app-store--v1.png"
+          }
+          skill={"Miscellaneous"}
+          program1={"Adobe Cloud"}
+          program2={"Microsoft Office"}
+          program3={"AutoCAD"}
+          program4={"Logic Pro/ProTools"}
         />
         <Cards
           icon={
             "https://img.icons8.com/ios-filled/80/000000/upload-to-cloud.png"
           }
-          skill={"DEVELOPMENT"}
-          program1={"JavaScript"}
-          program2={"React/Redux"}
-          program3={"HTML5"}
-          program4={"CSS"}
-        />
+          skill={"Deployment"}
+          program1={"-"}
+          program2={"Firebase"}
+          program3={"AWS"}
+          program4={"-"}
+        />{" "}
         {/* <div className="card"></div> */}
       </div>
     );

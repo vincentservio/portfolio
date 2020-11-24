@@ -1,18 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow&family=Cormorant:wght@300&family=Luckiest+Guy&display=swap");
 
-.card {
+.card:hover {
   size: 24px;
   /* float: left; */
-  /* padding-bottom: 100vw; */
   display: inline-block;
-  width: 150px;
-  border: 2px solid rgb(231, 203, 227);
+  width: 135px;
+  border: 4px solid rgb(142, 176, 199);
   padding: 30px 10px;
   /* position: absolute; */
   margin-top: 205px;
   height: 165px;
   background-color: rgb(0, 0, 0);
-  opacity: 0.7;
+  opacity: 0.8;
+  right: 12px;
+  left: 600px;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.card {
+  size: 24px;
+  /* float: left; */
+  /* padding-bottom: 100vw; */
+  display: inline-block;
+  width: 135px;
+  border: 4px solid rgb(231, 203, 227);
+  padding: 30px 10px;
+  /* position: absolute; */
+  margin-top: 205px;
+  height: 165px;
+  background-color: rgba(0, 0, 0, 0.842);
+  /* opacity: 0.7; */
   right: 12px;
   left: 600px;
   font-size: 15px;
@@ -23,9 +41,11 @@
   clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 0);
 
   background-image: url("https://thumbs.gfycat.com/UnfoldedRedJaguarundi-small.gif");
-  object-fit: contain;
-
+  /* object-fit: contain; */
+  width: 100%;
   height: 550px;
+  /* background-size: 100% auto !important; */
+
   background-repeat: no-repeat;
   color: rgb(255, 255, 255);
 
@@ -53,7 +73,7 @@
 } */
 .head {
   position: absolute;
-  margin: 200px 2px;
+  /* margin: 200px 2px; */
 }
 .bottom {
   color: black;
@@ -100,12 +120,12 @@ button {
 
 .Mission {
   font-family: "Cormorant", serif;
-  font-size: 25px;
+  font-size: 2.5vw;
   /* background-color: #ff9e2c; */
   position: absolute;
   left: 0px;
   width: 40%;
-  padding: 200px 60px;
+  padding: 50px 60px;
   text-align: center;
   /* -webkit-text-stroke: 1.5px rgb(29, 49, 42); */
   background-position: center;
@@ -118,13 +138,13 @@ button {
   position: absolute;
   right: 0px;
   width: 50%;
-  padding: 250px 0px;
+  padding: 75px 0px;
   position: absolute;
 }
 .titles {
   color: rgb(29, 49, 42);
   font-family: "Barlow", sans-serif;
-  font-size: 42px;
+  font-size: 4vw;
   /* margin: 20px 2px; */
 }
 .logo {
@@ -140,10 +160,9 @@ button {
 }
 
 .skills {
-  padding-bottom: 6vw;
-
   clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 20%);
   position: absolute;
+  padding-bottom: 6vw;
 
   background-image: url("https://i.pinimg.com/originals/bd/56/5d/bd565dcc0a556add0b0a0ed6b26d686e.gif");
   object-fit: contain;
@@ -197,7 +216,7 @@ button {
 .flip-card {
   display: inline-block;
   /* clip-path: polygon(100% 0, 100% 1000%, 0 100%, 0 0%); */
-  margin: 90px 10px;
+  margin: 50px 1vw;
 
   /* padding: 100px 60px; */
   /* max-resolution: 100px; */

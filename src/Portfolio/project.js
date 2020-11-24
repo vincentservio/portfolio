@@ -19,7 +19,10 @@ export default function Project(props) {
   return (
     <>
       <div className="flip-card">
-        <h2 className="titles"> {props.title}</h2>
+        <h2 className="titles" style={{fontSize: "3vw"}}>
+          {" "}
+          {props.title}
+        </h2>
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <div className="lang">
