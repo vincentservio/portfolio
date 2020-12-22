@@ -6,6 +6,7 @@ import {Languages} from "./Languages";
 import Skills from "./Skills";
 import Portfolio from "./Portfolio/Portfolio";
 import {Footer} from "./Footer";
+
 function App() {
   return (
     <div className="App">
@@ -22,7 +23,7 @@ function App() {
       <Skills />
       <div className="titles">PROJECT PORTFOLIO</div>
       <Portfolio />
-      {/* <img src={`${gif}`} alt="img" /> */}
+      <img src="/public/Animated GIF-downsized_large.gif" alt="img" />
       <Footer />
     </div>
   );
